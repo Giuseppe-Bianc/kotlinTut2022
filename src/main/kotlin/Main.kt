@@ -10,4 +10,9 @@ fun main(args: Array<String>) {
     println("short Min size ${Short.MIN_VALUE}")
     println("bite Max size ${Byte.MAX_VALUE}")
     println("bite Min size ${Byte.MIN_VALUE}")
+    // float / double
+    println("bite Max size ${Float.MAX_VALUE}")
+    println("bite Min size ${Float.MIN_VALUE}")
+    println("bite Max size ${Double.MAX_VALUE}")
+    println("bite Min size ${Double.MIN_VALUE}")
 }
