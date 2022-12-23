@@ -6,4 +6,6 @@ fun main(args: Array<String>) {
     println("int Min size ${Int.MIN_VALUE}")
     println("short Max size ${Short.MAX_VALUE}")
     println("short Min size ${Short.MIN_VALUE}")
+    println("bite Max size ${Byte.MAX_VALUE}")
+    println("bite Min size ${Byte.MIN_VALUE}")
 }
