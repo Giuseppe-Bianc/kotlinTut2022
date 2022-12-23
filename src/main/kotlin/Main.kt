@@ -2,6 +2,9 @@ fun main(args: Array<String>) {
     println("Hello World!")
     println("Program arguments: ${args.joinToString()}")
     val num = 32
+    val numF = 0.1f
+    val char = 'c'
+    val ver  = true
     println("long Max size ${Long.MAX_VALUE}")
     println("long Min size ${Long.MIN_VALUE}")
     println("int Max size ${Int.MAX_VALUE}")
@@ -15,4 +18,8 @@ fun main(args: Array<String>) {
     println("bite Min size ${Float.MIN_VALUE}")
     println("bite Max size ${Double.MAX_VALUE}")
     println("bite Min size ${Double.MIN_VALUE}")
+    // char / bolean
+    println("bite Max size ${Char.MAX_VALUE}")
+    println("bite Min size ${Char.MIN_VALUE}")
+
 }
